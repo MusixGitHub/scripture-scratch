@@ -28,3 +28,7 @@
     "vite": "^7.2.4"
   }
 }
+"scripts": {
+  "build": "vite build",
+  "build:github": "vite build --mode github"
+}
