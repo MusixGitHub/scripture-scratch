@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:github": "vite build --mode github",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -28,11 +29,5 @@
     "vite": "^7.2.4"
   }
 {
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "build:github": "vite build --mode github",
-    "preview": "vite preview"
-  }
-}
+
 
